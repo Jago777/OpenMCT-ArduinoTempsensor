@@ -1,0 +1,30 @@
+{
+    "name": "Arduino TempSensor",
+    "key": "ts",
+    "measurements": [
+        {
+            "name": "Temperature Sensor",
+            "key": "prop.tempsensor",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "℃",
+                    "format": "float",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
