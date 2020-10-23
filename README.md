@@ -1,0 +1,1 @@
+# OpenMCT-ArduinoTempsensor
